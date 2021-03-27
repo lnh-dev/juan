@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    @media screen and (min-width: 780px)  {
+        .wrap{
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+    
+    .menu_btn {
+            background-color: #6A5ACD;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 6px 6px 6px 6px;
+        }
+
+    .mainPageBtn {
+        width: 120px;
+        background-color: #00008B; 
+        color: white; /*버튼 내 글자색*/
+        border: 2px solid #00008B;
+        float: right;
+        border-radius: 5px;
+    }
+    
+    .mainPageBtn:hover {
+        background-color: white;
+        color: #00008B;
+        border-radius: 5px;
+    }
+
+    .menu {
+        float:left;
+        width:20%;
+        text-align:center;
+    }
+    .menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+    }
+    .main {
+    float:left;
+    width:60%;
+    padding:0 20px;
+    }
+    .right {
+    background-color:#e5e5e5;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+    }
+
+    @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width:100%;
+    }
+    }
+    .logo{
+        float: left;
+    }
+    .mainPageBtn{
+        float: right;
+    }
+    .menu_btn{
+        margin:7px 7px 0px 7px;
+        display: block;
+        width: 45%;
+        float: left;
+        background-color: #00008B; 
+        color: white; /*버튼 내 글자색*/
+        border: 2px solid #00008B;
+        border-radius: 5px;
+    }
+    .menu_btn:hover {
+        background-color: white;
+        color: #00008B;
+        border-radius: 5px;
+    }
+
+
+    .menu_btn2{
+        color: white;
+        width: 25%;
+        float: left;
+        font-weight: bold;
+    }
+    .menu_btn2 img{
+        object-fit: cover;
+    }
+
+    
+    a { text-decoration:none !important }
+
+    .menu_btn2_group{
+        padding: 10px 0px 10px 0px;
+
+    }
+    .footer_left{
+        color: #00008b;
+    }
+    
+
+
+
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+    <div class="wrap">
+        <div style="height:80px; padding:15px;text-align:center;">
+            <img src="logo.jpg" alt="로고" class="logo" name="">
+            <button class="btn mainPageBtn" onclick="location.href='https://w3.juan.or.kr'"><div style="float: left;"><img src="church.png" alt="교회홈페이지" name=""></div><div>&nbsp; <b>pc버전 <br> 바로가기</b></div></button>
+        </div>
+        <div style="overflow: auto;">
+            <img src="mainBanner.jpg" alt="다음 세대를 세우는 교회" style="width: 100%;" >
+            <img src="bannerBtn1.jpg" style="width: 100%;float: left; height: auto;" onclick="location.href='https://w3.juan.or.kr/tv/02sermon/2senior.asp'" alt="로고" class="" name="">
+        </div>
+        <div style="overflow: auto;">
+            <div style="background-image: url('bannerBtn2.jpg');" >
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/channel/UCKyWMO4rjYpDBCD7VBgSKTQ'" alt="로고" class="" name=""><b>예배실황</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/channel/UCKyWMO4rjYpDBCD7VBgSKTQ'" alt="로고" class="" name=""><b>5분 메세지</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/channel/UCKyWMO4rjYpDBCD7VBgSKTQ'" alt="로고" class="" name=""><b>새벽기도회</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/channel/UCKyWMO4rjYpDBCD7VBgSKTQ'" alt="로고" class="" name=""><b>수요예배</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/user/juanchurchschool'" alt="로고" class="" name=""><b>교회학교</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://www.youtube.com/channel/UCHd8lb2s6ZcmEIloYY9o0fg'" alt="로고" class="" name=""><b>청년국</b></button>
+                <button class="menu_btn" style=" height: 100%;" onclick="location.href='https://lnh-dev.github.io/juanonlineprayerroom/'" alt="로고" class="" name=""><b>온라인기도실</b></button>
+                <button class="menu_btn" style="margin-bottom: 7px; height: 100%;" onclick="location.href='#'" alt="로고" class="" name=""><b>바이블컬리지</b></button>
+            </div>
+        </div>
+        <div style="background-image: url('juanChurch.jpg');">
+            <div class="menu_btn2_group"> 
+                <div style="overflow: auto; margin: 7px 7px 0px 7px; text-align: center;" >
+                    <a href="https://w3.juan.or.kr/tv/01worship/1latest.asp" class="menu_btn2"><img src="worship.png" onclick="location.href='https://w3.juan.or.kr/tv/01worship/1latest.asp'" alt="로고" class="" name=""><br>예배안내</a>
+                    <a href='https://w3.juan.or.kr/tv/06news/4jubo.asp' class="menu_btn2"><img src="report.png" onclick="location.href='https://w3.juan.or.kr/tv/06news/4jubo.asp'" alt="로고" class="" name=""><br>주보</a>
+                    <a href='#' class="menu_btn2"><img src="mission.png" onclick="location.href='#'" alt="로고" class="" name=""><br>온라인 선교</a>
+                    <a href='https://membercard.juan.or.kr/' class="menu_btn2"><img src="id_card.png" onclick="location.href='https://membercard.juan.or.kr/'" alt="로고" class="" name=""><br>모바일 <br>성도카드</a>
+                </div>
+                
+                <div style="overflow: auto; margin: 7px 7px 0px 7px; text-align: center;" >
+                    <a href='https://w3.juan.or.kr/church/07newfamily/1newfamily.asp' class="menu_btn2"><img src="welcome.png" onclick="location.href='https://w3.juan.or.kr/church/07newfamily/1newfamily.asp'" alt="로고" class="" name=""><br>새가족 등록</a>
+                    <a href='https://rodem.juan.or.kr/onlineclass/index_login.asp?idx=0' class="menu_btn2"><img src="edu.png" onclick="location.href='https://rodem.juan.or.kr/onlineclass/index_login.asp?idx=0'" alt="로고" class="" name=""><br>새가족 <br>온라인 교육</a>
+                    <a href='https://rodem.juan.or.kr/index.asp?RetUrl=%2Fmain%2Easp' class="menu_btn2"><img src="tree.png" onclick="location.href='https://rodem.juan.or.kr/index.asp?RetUrl=%2Fmain%2Easp'" alt="로고" class="" name=""><br>로뎀나무</a>
+                    <a href='https://w3.juan.or.kr/tv/06news/9card_view.asp?sid=48030' class="menu_btn2"><img src="bibleverse.png" onclick="location.href='https://w3.juan.or.kr/tv/06news/9card_view.asp?sid=48030'" alt="로고" class="" name=""><br>말씀카드</a>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">
+            <div class="footer_left">
+                대한예수교장로회 <b>주안교회</b><br/>
+                <b>부평성전</b> 21377 인천광역시 부평구 부흥로213(산곡동)<br/>
+                <b>주안성전</b> 22140 인천광역시 미추홀구 석바위로74번길 20(주안동)
+            </div>
+        </div>
+
+    </div> <!--wrap-->
+</body>
+</html>
